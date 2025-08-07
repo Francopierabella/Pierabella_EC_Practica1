@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <table >
+        <tr id="row1">
+            <td id="encabezado" colspan="2" width="80%">
+                <p>Encabezado</p>
+            </td>
+            <td>
+                <p>Logo</p>
+            </td>
+        </tr>
+        <tr id="row2">
+            <td id="menu" width="30%" height="80px" >Menu</td>
+            <td id="prin" colspan="2">Principal</td>
+        </tr>
+        <tr id="row3"> 
+            <td colspan="3" style="text-align: center;">Pie</td>
+        </tr>
+    </table>
+
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        table{
+            margin-top: 100px;margin-left: 100px;
+            border: 2px solid black;
+            display: inline-table;
+            border-collapse: collapse;
+            width: 70%;
+        }
+        td{
+            border: 2px solid black;
+        }
+        table #row2 #prin {
+            padding-left : 100px;
+        }
+    </style>
+</body>
+</html>
