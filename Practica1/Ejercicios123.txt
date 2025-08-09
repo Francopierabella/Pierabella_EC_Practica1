@@ -1,0 +1,76 @@
+Ejercicio 1
+
+1. HTML (HyperText Markup Language) es el lenguaje de marcado que se utiliza para estructurar y presentar el contenido de la Web. Algo que resaltar es que no es un lenguaje de programación. Fue creado en 1991, con el objetivo principal de facilitar el intercambio de documentos en la WWW (World Wide Web). HTML tiene varias versiones que han salido a lo largo de los años, las mas importantes fueron: HTML 2.0, con la introducción de los formularios, tablas y listas; HTML 4.01, con la separación de estructura HTML y CSS; HTML5 agregando soporte de audio y video.
+
+2. Los principios básicos que recomienda seguir la W3C son: 
+	- Usar HTML de forma semántica
+	- Separar contenido y presentación
+	- Escribir código valido y bien formado
+	- Incluir metadatos claros
+	- Garantizar accesibilidad
+	- Usar enlaces y rutas correctas
+	- Compatibilidad y degradación elegante
+
+3. Un atributo se considera desaprobado cuando tenemos un elemento que funciona pero no se recomienda usarla porque existe una forma mas accesible de lograr el mismo efecto. Y un atributo obsoleto es un elemento que ya no forma parte de la especificación y no se debe usar.
+
+4. El DTD (Document Type Definition) es un conjunto de reglas que define la estructura y las etiquetas permitidas en el documento. Se contemplan tres especificaciones: Strict, Transitional y Frameset. 
+
+5. Los metadatados son datos que describen el contenido del documento y se colocan en el head. Se especifican en: meta internos, link apuntando a recursos externos y atributo en head.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 2
+Analizar los siguientes segmentos de código indicando en qué sección del documento HTML
+se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos
+(nombre y valor), aclarando si es obligatorio.
+
+2.a)
+<!-- Código controlado el día 12/08/2009 →
+
+RTA: Lo que vemos en esta linea de código es un comentario. Puede ir en cualquier parte del documento HTML. Su función es ayudar al lector del código a tener conocimiento de ciertas cosas que en el código no se ven, asi también poder decir que ocurre en cada parte de nuestro doc. Esta el etiqueta de apertura (<!--), texto  y  etiqueta de cierre (-->).
+2.b)
+
+<div id="bloque1">Contenido del bloque1</div> 
+
+Rta: vemos un div bien definido con etiqueta de apertura ( <div>) y de cierre ( </div). Crea un bloque en el cual se encuentra el texto " contenido del bloque1".  Dentro de la etiqueta de apertura encontramos un atributo id, el cual sirve para darle un nombre, es decir, un identificador a ese div. No es obligatorio el id, si lo es la apertura de cierre del div.
+
+2.c)
+
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+Rta: Encontramos una etiqueta img, la cual no tiene nada en el atributo src, lo que implica que no se mostrará ninguna imagen. Luego alt, que le da una descripción a la imagen ( no se muestra en la pagina. Se muestra solo si existe un error y no se carga correctamente la imagen). Id, como mencione anteriormente, es un identificador de la imagen. name no se suele usar en etiquetas img, también le da un " nombre a la img". Width le da el ancho y heigth el alto de la imagen, el numero entre comillas esta expresado en pixeles. longdesc, da una descripción mas detallada de la imagen, apunta a un archivo HTML el cual contiene mas detalles de la imagen.
+
+2.d)
+
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+2.e)
+
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+
+rel="help">Resumen HTML </a>
+
+2.f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+	<th scope="col">&nbsp;</th>
+	<th scope="col">A</th>
+	<th scope="col">B</th>
+	<th scope="col">C</th>
+</tr>
+<tr>
+	<th scope="row">1º</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<th scope="row">2º</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+</table>
